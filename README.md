@@ -4,6 +4,11 @@
 
 [![Build status][cypress-image-ci-image] ][cypress-image-ci-url]
 
+## Related info
+
+* [Store images on Docker Hub](https://docs.docker.com/engine/tutorials/dockerrepos/)
+* [Tag and push image to the registry](https://docs.docker.com/mac/step_six/)
+
 ### Small print
 
 Author: Gleb Bahmutov &copy; 2016
