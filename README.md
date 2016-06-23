@@ -2,7 +2,8 @@
 
 > Full Docker image for running Cypress CI test in your own container
 
-[![Build status][cypress-image-ci-image] ][cypress-image-ci-url]
+The Docker image is hosted on the Docker hub at
+[bahmutov/cypress-image/](https://hub.docker.com/r/bahmutov/cypress-image/)
 
 ## Related info
 
@@ -48,6 +49,3 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
-
-[cypress-image-ci-image]: https://travis-ci.org/bahmutov/cypress-image.png?branch=master
-[cypress-image-ci-url]: https://travis-ci.org/bahmutov/cypress-image
