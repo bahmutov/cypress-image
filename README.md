@@ -15,10 +15,12 @@ file.
 ## Related info
 
 * [Cypress][cy]
+* [Web testing nirvana with Cypress][blog post]
 * [Store images on Docker Hub](https://docs.docker.com/engine/tutorials/dockerrepos/)
 * [Tag and push image to the registry](https://docs.docker.com/mac/step_six/)
 
 [cy]: https://www.cypress.io/
+[blog post]: https://glebbahmutov.com/blog/web-testing-nirvana-with-cypress/
 
 ### Small print
 
