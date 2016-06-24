@@ -1,14 +1,24 @@
 # cypress-image
 
-> Full Docker image for running Cypress CI test in your own container
+> Full Docker image for running [Cypress CI][cy] test in your own container
 
-The Docker image is hosted on the Docker hub at
+The Docker image is built automatically on any code changes,
+and it is hosted on the Docker hub at
 [bahmutov/cypress-image/](https://hub.docker.com/r/bahmutov/cypress-image/)
+
+Base image is Node 6.
+
+To build the image locally, run [build-docker-image.sh](build-docker-image.sh)
+file.
+
 
 ## Related info
 
+* [Cypress][cy]
 * [Store images on Docker Hub](https://docs.docker.com/engine/tutorials/dockerrepos/)
 * [Tag and push image to the registry](https://docs.docker.com/mac/step_six/)
+
+[cy]: https://www.cypress.io/
 
 ### Small print
 
