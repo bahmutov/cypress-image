@@ -12,7 +12,7 @@ RUN apt-get install --yes xvfb
 
 # Need Cypress itself
 RUN npm set progress=false
-RUN npm i -g --loglevel warn cypress-cli@0.11.1
+RUN npm i -g --loglevel warn cypress-cli@0.13.1
 
 ENV CYPRESS_VERSION 0.19.2
 RUN echo Cypress version to install $CYPRESS_VERSION
