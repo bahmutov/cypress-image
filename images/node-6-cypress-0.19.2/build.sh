@@ -1,8 +1,7 @@
 set e+x
 
 # build image with everything needed to run Cypress
-VERSION=0.19.2
-LOCAL_NAME=bahmutov/cypress-image
+LOCAL_NAME=bahmutov/cypress-image:node-6-cypress-0.19.2
 
-echo "Building $LOCAL_NAME with Cypress $VERSION"
-docker build --build-arg CYPRESS_VERSION=${VERSION} -t $LOCAL_NAME .
+echo "Building $LOCAL_NAME"
+docker build -t $LOCAL_NAME .
