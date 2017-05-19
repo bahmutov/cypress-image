@@ -8,7 +8,25 @@ and it is hosted on the Docker hub at
 
 ## Tags / versions
 
-There are separate tags and Docker files, see [images](images) subfolders.
+We build several tags, based on Node and Cypress version, usually following
+the pattern `node-<major>-cypress-<full cypress version>`, for example
+`node-6-cypress-0.19.2`.
+
+* [bahmutov/cypress-image:node-6-cypress-deps](images/node-6-cypress-deps)
+  is the very base image with Node and XVFB dependencies Cypress needs to run.
+  You can install specific version of Cypress into this image.
+* [bahmutov/cypress-image:node-6-cypress-0.19.2](images/node-6-cypress-0.19.2)
+  a base image with Cypress 0.19.2 installed globally
+* ... other tags, see [images](images) subfolders
+
+To test if a particular full image is working correctly, run with to print
+the Cypress version
+
+```sh
+docker run -it bahmutov/cypress-image:node-6-cypress-0.19.2 cypress --version
+Cypress CLI: 0.13.1
+Cypress App: 0.19.2
+```
 
 ## Related info
 
