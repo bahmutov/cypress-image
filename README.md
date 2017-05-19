@@ -12,12 +12,18 @@ We build several tags, based on Node and Cypress version, usually following
 the pattern `node-<major>-cypress-<full cypress version>`, for example
 `node-6-cypress-0.19.2`.
 
-* [bahmutov/cypress-image:node-6-cypress-deps](images/node-6-cypress-deps)
-  is the very base image with Node and XVFB dependencies Cypress needs to run.
-  You can install specific version of Cypress into this image.
+If you just need a base image with Node and XVFB dependencies Cypress needs
+to run, pull `bahmutov/cypress-image:node-6-cypress-deps` or
+`bahmutov/cypress-image:node-7-cypress-deps`
+
+If you want to pull an image with dependencies AND specific verson of
+Cypress installed globally
+
 * [bahmutov/cypress-image:node-6-cypress-0.19.2](images/node-6-cypress-0.19.2)
   a base image with Cypress 0.19.2 installed globally
-* ... other tags, see [images](images) subfolders
+* ... other tags, see [images][images] subfolders
+
+[images]: https://github.com/bahmutov/cypress-image/tree/master/images
 
 To test if a particular full image is working correctly, run with to print
 the Cypress version
