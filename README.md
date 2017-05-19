@@ -6,15 +6,14 @@ The Docker image is built automatically on any code changes,
 and it is hosted on the Docker hub at
 [bahmutov/cypress-image/](https://hub.docker.com/r/bahmutov/cypress-image/)
 
-Base image is Node 6.
+## Tags / versions
 
-To build the image locally, run [build-docker-image.sh](build-docker-image.sh)
-file.
-
+There are separate tags and Docker files, see [images](images) subfolders.
 
 ## Related info
 
-* [Cypress][cy]
+More information about [Cypress.io][cy]
+
 * [Web testing nirvana with Cypress][blog post]
 * [Store images on Docker Hub](https://docs.docker.com/engine/tutorials/dockerrepos/)
 * [Tag and push image to the registry](https://docs.docker.com/mac/step_six/)
