@@ -20,4 +20,4 @@ RUN cypress install
 RUN cypress verify
 
 # Verify that Cypress has all system dependencies
-RUN /root/.cypress/Cypress/Cypress
+RUN cypress --version
