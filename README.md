@@ -28,6 +28,14 @@ Cypress CLI: 0.13.1
 Cypress App: 0.19.2
 ```
 
+If you already have a local Docker image, and you would like to download the
+official image again, delete the local image and run the command again. To
+delete an image
+
+```sh
+docker rmi bahmutov/cypress-image:node-6-cypress-0.19.2
+```
+
 ## Related info
 
 More information about [Cypress.io][cy]
