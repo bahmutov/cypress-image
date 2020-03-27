@@ -1,3 +1,8 @@
+<center>
+  <h1>Obsolete</h1>
+  <p>Please use the official <a href="https://github.com/cypress-io/cypress-docker-images">cypress-docker-images</a></p>
+</center>
+
 # cypress-image
 
 > Full Docker image for running [Cypress CI][cy] test in your own container
